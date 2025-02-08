@@ -20,7 +20,7 @@ export default function Services({ lang, translations, id }: { lang: string; tra
   ];
 
   return (
-    <section id={id} className="py-20 px-4 bg-background">
+    <section id={id} className="pt-0 md:py-20  px-4 bg-background">
       <div className="container mx-auto">
         <h2 className="text-center mb-12">{translations.title}</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
